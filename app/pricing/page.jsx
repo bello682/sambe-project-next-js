@@ -13,7 +13,7 @@ import "swiper/css/pagination";
 // import required modules for swiper js
 import { Switch } from "antd";
 
-const page = () => {
+const PricingPage = () => {
 	const onChange = (checked) => {
 		console.log(`switch to ${checked}`);
 	};
@@ -172,7 +172,7 @@ const page = () => {
 											<p>Access to Sambé Book Club</p>
 										</li>
 										<li>
-											<FaCircleCheck/>
+											<FaCircleCheck />
 											<p>
 												Exclusive Access to Sambé Monthly Group Coaching Call
 											</p>
@@ -365,4 +365,4 @@ const page = () => {
 	);
 };
 
-export default page;
+export default PricingPage;

@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 import BodyBackground from "../component/body-background/BodyBackgroundSection";
 import Typed from "typed.js";
 import Link from "next/link";
-import Page from "../result/page";
+import ResultPage from "../result/page";
 import Image from "next/image";
 // import required modules for swiper js
 import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
@@ -23,7 +23,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 // ======== for my unscroll animation page =============//
 
-const page = () => {
+const HomePage = () => {
 	const [error, setError] = useState("");
 	const [inputValue, setInputValue] = useState("");
 	const [showResult, setShowResult] = useState(false);
@@ -120,7 +120,7 @@ const page = () => {
 						</div>
 					</div>
 				</section>
-				{showResult && <Page valueProps={inputValue} />}
+				{showResult && <ResultPage valueProps={inputValue} />}
 			</div>
 			<section className="w-[100%]  h-auto">
 				<div className=" w-[100%] h-auto flex items-center justify-center m-auto">
@@ -516,4 +516,4 @@ const page = () => {
 	);
 };
 
-export default page;
+export default HomePage;

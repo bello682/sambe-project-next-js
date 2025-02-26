@@ -1,6 +1,6 @@
 import React from "react";
 
-const page = () => {
+const MobilePage = () => {
 	return (
 		<div>
 			<h1>mobile App</h1>
@@ -14,4 +14,4 @@ const page = () => {
 	);
 };
 
-export default page;
+export default MobilePage;

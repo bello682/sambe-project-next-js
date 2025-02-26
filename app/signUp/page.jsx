@@ -5,7 +5,7 @@ import axios from "axios";
 import Image from "next/image";
 import NavBar from "../component/navbar/NavBar";
 
-const page = () => {
+const SignUpPage = () => {
 	const [firstName, setFirstName] = useState("");
 	const [lastName, setlastName] = useState("");
 	const [email, setEmail] = useState("");
@@ -123,4 +123,4 @@ const page = () => {
 	);
 };
 
-export default page;
+export default SignUpPage;

@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 
-const page = ({ valueProps }) => {
+const ResultPage = ({ valueProps }) => {
 	const [isVisible, setIsVisible] = useState(valueProps ? true : false);
 
 	return (
@@ -20,4 +20,4 @@ const page = ({ valueProps }) => {
 	);
 };
 
-export default page;
+export default ResultPage;

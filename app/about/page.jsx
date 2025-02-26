@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const page = () => {
+const AboutPage = () => {
 	return (
 		<div className="w-[100%] h-auto bg-[#f1f1f1] pt-[10rem]">
 			<div className="bg-[#fff] py-[2rem] px-[2rem] w-[80%] justify-center items-center m-auto shadow-2xl rounded ">
@@ -60,4 +60,4 @@ const page = () => {
 	);
 };
 
-export default page;
+export default AboutPage;

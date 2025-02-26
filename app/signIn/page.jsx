@@ -4,7 +4,7 @@ import Link from "next/link";
 import axios from "axios";
 import Image from "next/image";
 
-const page = () => {
+const SignInPage = () => {
 	const [email, setEmail] = useState("");
 	const [password, setPassword] = useState("");
 
@@ -21,7 +21,7 @@ const page = () => {
 		}
 	};
 
-	console.log(email, password);
+	// console.log(email, password);
 	return (
 		<section className="w-full h-screen relative">
 			<div>
@@ -76,4 +76,4 @@ const page = () => {
 	);
 };
 
-export default page;
+export default SignInPage;
