@@ -121,7 +121,15 @@ const HomePage = () => {
 						</div>
 					</div>
 				</section>
-				{showResult && <ResultPage valueProps={inputValue} />}
+				{showResult && (
+					<ResultPage
+						valueProps={inputValue}
+						onClose={() => {
+							setShowResult(false);
+							setInputValue("");
+						}}
+					/>
+				)}
 			</div>
 			<section className="w-[100%]  h-auto">
 				<div className=" w-[100%] h-auto flex items-center justify-center m-auto">
