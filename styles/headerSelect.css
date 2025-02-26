@@ -1,0 +1,19 @@
+/* styles/ImageSlider.css */
+
+/* .image-slider {
+	width: 100%;
+	height: 100vh; /* Adjust height as needed */
+/* background-size: cover;
+	background-position: center;
+	transition: background-image 0.5s ease-in-out;
+}  */
+
+/* CSS code */
+.select-hidden-arrow {
+	-webkit-appearance: none; /* Remove default arrow on iOS and Safari */
+	-moz-appearance: none; /* Remove default arrow on Firefox */
+	appearance: none; /* Remove default arrow on other browsers */
+	background-image: none; /* Remove default arrow background */
+	/* background-color: transparent; Set background color to transparent */
+	/* padding-right: 1rem; Add some padding on the right for better appearance */
+}
