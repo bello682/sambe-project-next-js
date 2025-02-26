@@ -4,7 +4,6 @@ import { useEffect, useRef } from "react";
 import BodyBackground from "../component/body-background/BodyBackgroundSection";
 import Typed from "typed.js";
 import Link from "next/link";
-// import ResultPage from "../result/page";
 import ResultPage from "../../app/component/result/ResultPage.jsx";
 import Image from "next/image";
 // import required modules for swiper js
